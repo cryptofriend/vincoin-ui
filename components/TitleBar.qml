@@ -93,27 +93,6 @@ Rectangle {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
             width: height
-            color: containsMouse ? "#6B0072" : "#000000"
-
-            Image {
-                anchors.centerIn: parent
-                source: "../images/helpIcon.png"
-            }
-
-            MouseArea {
-                id: whatIsArea
-                anchors.fill: parent
-                onClicked: {
-
-                }
-            }
-        }
-
-        Rectangle {
-            property bool containsMouse: titleBar.mouseX >= x + row.x && titleBar.mouseX <= x + row.x + width && titleBar.containsMouse
-            anchors.top: parent.top
-            anchors.bottom: parent.bottom
-            width: height
             color: containsMouse ? "#3665B3" : "#000000"
 
             Image {
