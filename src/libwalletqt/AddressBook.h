@@ -6,7 +6,7 @@
 #include <QList>
 #include <QDateTime>
 
-namespace Vincoin {
+namespace VincoinCash {
 class AddressBook;
 }
 class AddressBookRow;
@@ -15,8 +15,8 @@ class AddressBook : public QObject
 {
     Q_OBJECT
 public:
-    Q_INVOKABLE QList<Vincoin::AddressBookRow*> getAll(bool update = false) const;
-    Q_INVOKABLE Vincoin::AddressBookRow * getRow(int index) const;
+    Q_INVOKABLE QList<VincoinCash::AddressBookRow*> getAll(bool update = false) const;
+    Q_INVOKABLE VincoinCash::AddressBookRow * getRow(int index) const;
     Q_INVOKABLE bool addRow(const QString &address, const QString &payment_id, const QString &description) const;
     Q_INVOKABLE bool deleteRow(int rowId) const;
     quint64 count() const;
@@ -42,10 +42,10 @@ signals:
 public slots:
 
 private:
-    explicit AddressBook(Vincoin::AddressBook * abImpl, QObject *parent);
+    explicit AddressBook(VincoinCash::AddressBook * abImpl, QObject *parent);
     friend class Wallet;
-    Vincoin::AddressBook * m_addressBookImpl;
-    mutable QList<Vincoin::AddressBookRow*> m_rows;
+    VincoinCash::AddressBook * m_addressBookImpl;
+    mutable QList<VincoinCash::AddressBookRow*> m_rows;
 };
 
 #endif // ADDRESSBOOK_H

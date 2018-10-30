@@ -117,7 +117,7 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Vincoin daemon in %1 seconds</source>
+        <source>Starting Vincoin Cash daemon in %1 seconds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -430,7 +430,7 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Vincoin network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <source>Mining with your computer helps strengthen the Vincoin Cash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin Cash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -918,7 +918,7 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Vincoin version: </source>
+        <source>Embedded Vincoin Cash version: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1566,13 +1566,13 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Vincoin preferences</source>
-        <translation>हमने बस समाप्त कर लिया है - चलिए कुछ Vincoin प्राथमिकताएं कॉन्फ़िगर करते हैं</translation>
+        <source>We’re almost there - let’s just configure some Vincoin Cash preferences</source>
+        <translation>हमने बस समाप्त कर लिया है - चलिए कुछ Vincoin Cash प्राथमिकताएं कॉन्फ़िगर करते हैं</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Vincoin blockchain?</source>
-        <translation>Kickstart the Vincoin ब्लॉकचेन?</translation>
+        <source>Kickstart the Vincoin Cash blockchain?</source>
+        <translation>Kickstart the Vincoin Cash ब्लॉकचेन?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1586,8 +1586,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin instance. However, storing the full blockchain is beneficial to the security of the Vincoin network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>डिस्क संरक्षण मोड काफी कम डिस्क-स्पेस प्रयोग करता है, लेकिन इसके लिए सामान्य Vincoin इंस्टैंस के बराबर बैंडविड्थ की आवश्यकता होती है। हालाँकि, Vincoin नेटवर्क की सुरक्षा के लिए पूरा ब्लॉकचेन संग्रहीत करना लाभदायक होता है। यदि आप कम डिस्क स्पेस वाली डिवाइस पर हैं तो यह विकल्प आपके लिए उपयुक्त है।</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin Cash instance. However, storing the full blockchain is beneficial to the security of the Vincoin Cash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>डिस्क संरक्षण मोड काफी कम डिस्क-स्पेस प्रयोग करता है, लेकिन इसके लिए सामान्य Vincoin Cash इंस्टैंस के बराबर बैंडविड्थ की आवश्यकता होती है। हालाँकि, Vincoin Cash नेटवर्क की सुरक्षा के लिए पूरा ब्लॉकचेन संग्रहीत करना लाभदायक होता है। यदि आप कम डिस्क स्पेस वाली डिवाइस पर हैं तो यह विकल्प आपके लिए उपयुक्त है।</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1596,8 +1596,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>माइनिंग Vincoin नेटवर्क को सुरक्षित बनाता है, और साथ ही किये गए कार्य के लिए छोटा पुरस्कार भी देता है। यह विकल्प Vincoin को तब माइन करने देता है जब आपका कंप्यूटर मेंस पॉवर पर होता है और निष्क्रिय होता है। जब आप काम करना शुरू करते हैं तो यह माइनिंग बंद कर देता है।</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>माइनिंग Vincoin Cash नेटवर्क को सुरक्षित बनाता है, और साथ ही किये गए कार्य के लिए छोटा पुरस्कार भी देता है। यह विकल्प Vincoin Cash को तब माइन करने देता है जब आपका कंप्यूटर मेंस पॉवर पर होता है और निष्क्रिय होता है। जब आप काम करना शुरू करते हैं तो यह माइनिंग बंद कर देता है।</translation>
     </message>
 </context>
 <context>
@@ -1620,8 +1620,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Vincoin development is solely supported by donations</source>
-        <translation>Vincoin का विकास पूरी तरह से डोनेशन से समर्थित है</translation>
+        <source>Vincoin Cash development is solely supported by donations</source>
+        <translation>Vincoin Cash का विकास पूरी तरह से डोनेशन से समर्थित है</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1635,8 +1635,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin development.</source>
-        <translation>प्रत्येक लेनदेन के लिए एक छोटा शुल्क लगाया जाता है। यह विकल्प आपको Vincoin का विकास समर्थित करने के लिए अपने लेनदेन में शुल्क के प्रतिशत के रूप में एक अतिरिक्त राशि जोड़ने की अनुमति देता है। उदाहरण के लिए, 50% ऑटो-डोनेशन 0.005 XMR का लेनदेन शुल्क लेता है और Vincoin के विकास को समर्थित करने के लिए 0.0025 XMR जोड़ता है।</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin Cash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin Cash development.</source>
+        <translation>प्रत्येक लेनदेन के लिए एक छोटा शुल्क लगाया जाता है। यह विकल्प आपको Vincoin Cash का विकास समर्थित करने के लिए अपने लेनदेन में शुल्क के प्रतिशत के रूप में एक अतिरिक्त राशि जोड़ने की अनुमति देता है। उदाहरण के लिए, 50% ऑटो-डोनेशन 0.005 XMR का लेनदेन शुल्क लेता है और Vincoin Cash के विकास को समर्थित करने के लिए 0.0025 XMR जोड़ता है।</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1645,8 +1645,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>माइनिंग Vincoin नेटवर्क को सुरक्षित बनाता है, और साथ ही किये गए कार्य के लिए छोटा पुरस्कार भी देता है। यह विकल्प Vincoin को तब माइन करने देता है जब आपका कंप्यूटर मेंस पॉवर पर होता है और निष्क्रिय होता है। जब आप काम करना शुरू करते हैं तो यह माइनिंग बंद कर देता है।</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>माइनिंग Vincoin Cash नेटवर्क को सुरक्षित बनाता है, और साथ ही किये गए कार्य के लिए छोटा पुरस्कार भी देता है। यह विकल्प Vincoin Cash को तब माइन करने देता है जब आपका कंप्यूटर मेंस पॉवर पर होता है और निष्क्रिय होता है। जब आप काम करना शुरू करते हैं तो यह माइनिंग बंद कर देता है।</translation>
     </message>
 </context>
 <context>
@@ -1825,8 +1825,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Vincoin!</source>
-        <translation>Vincoin में आपका स्वागत है!</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation>Vincoin Cash में आपका स्वागत है!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1899,8 +1899,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Vincoin!</source>
-        <translation type="unfinished">Vincoin में आपका स्वागत है!</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation type="unfinished">Vincoin Cash में आपका स्वागत है!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2118,7 +2118,7 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Vincoin</source>
+        <source>Vincoin Cash</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

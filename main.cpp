@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2015, The Vincoin Project
+// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2018-2019, The Vincoin Cash Project
 // 
 // All rights reserved.
 // 
@@ -63,7 +64,7 @@
 void messageHandler(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 {
     // Send all message types to logger
-    Vincoin::Wallet::debug(msg.toStdString());
+    VincoinCash::Wallet::debug(msg.toStdString());
 }
 
 int main(int argc, char *argv[])
@@ -75,7 +76,7 @@ int main(int argc, char *argv[])
 //#endif
 
     // Log settings
-    Vincoin::Wallet::init(argv[0], "vincoin-wallet-gui");
+    VincoinCash::Wallet::init(argv[0], "vincoin-wallet-gui");
 //    qInstallMessageHandler(messageHandler);
 
     MainApp app(argc, argv);

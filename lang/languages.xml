@@ -15,6 +15,7 @@ List of available languages for your wallet's seed:
 9 : 简体中文 (中国) (Simplified Chinese (Mainland))
 -->
         <language display_name="English (US)" locale="en_US" wallet_language="English" flag="/lang/flags/usa.png" qs="none"/>
+        <language display_name="Vietnamese" locale="vi_VN" wallet_language="English" flag="/lang/flags/vietnam.png" qs="none"/>
         <!-- <language display_name="English (GB)" locale="en_GB" wallet_language="English" flag="/lang/flags/uk.png" qs="none"/> -->
         <!-- <language display_name="English (ZA)" locale="en_SA" wallet_language="English" flag="/lang/flags/rpa.png" qs="none"/> -->
         <!-- <language display_name="العربية (PS)" locale="ar_PS" wallet_language="English" flag="/lang/flags/palestine.png" qs="none"/> -->

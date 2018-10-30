@@ -1,7 +1,7 @@
 #include "AddressBook.h"
 #include <QDebug>
 
-AddressBook::AddressBook(Vincoin::AddressBook *abImpl,QObject *parent)
+AddressBook::AddressBook(VincoinCash::AddressBook *abImpl,QObject *parent)
   : QObject(parent), m_addressBookImpl(abImpl)
 {
     qDebug(__FUNCTION__);
@@ -18,7 +18,7 @@ int AddressBook::errorCode() const
     return m_addressBookImpl->errorCode();
 }
 
-QList<Vincoin::AddressBookRow*> AddressBook::getAll(bool update) const
+QList<VincoinCash::AddressBookRow*> AddressBook::getAll(bool update) const
 {
     qDebug(__FUNCTION__);
 
@@ -38,7 +38,7 @@ QList<Vincoin::AddressBookRow*> AddressBook::getAll(bool update) const
 
 }
 
-Vincoin::AddressBookRow * AddressBook::getRow(int index) const
+VincoinCash::AddressBookRow * AddressBook::getRow(int index) const
 {
     return m_rows.at(index);
 }

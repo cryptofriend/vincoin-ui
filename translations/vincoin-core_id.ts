@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Vincoin daemon in %1 seconds</source>
-        <translation>Jurik Vincoin akan mulai dalam %1 detik</translation>
+        <source>Starting Vincoin Cash daemon in %1 seconds</source>
+        <translation>Jurik Vincoin Cash akan mulai dalam %1 detik</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Vincoin network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Pertambangan dengan komputer Anda menolong mempertahankan jaringan Vincoin. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Vincoin. Komputer Anda akan menebak untuk kunci blok Vincoin. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Vincoin. Semoga sukses!</translation>
+        <source>Mining with your computer helps strengthen the Vincoin Cash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin Cash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Pertambangan dengan komputer Anda menolong mempertahankan jaringan Vincoin Cash. Makin banyak orang-orang pertambangan, makin sulit menyerangkan jaringan, dan setiap komputer membantu, memang yang kecil.&lt;br&gt; &lt;br&gt;Pertambangan juga memberikan Anda sebuah kesempatan supaya memenangkan sedikit Vincoin Cash. Komputer Anda akan menebak untuk kunci blok Vincoin Cash. Jika Anda menemukan kunci yang pas, Anda akan menang sedikit Vincoin Cash. Semoga sukses!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -943,8 +943,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Vincoin version: </source>
-        <translation>Versi Vincoin termasuk: </translation>
+        <source>Embedded Vincoin Cash version: </source>
+        <translation>Versi Vincoin Cash termasuk: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1566,13 +1566,13 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Vincoin preferences</source>
-        <translation>Hampir selesai - marilah kita pilih preferensi dalam Vincoin</translation>
+        <source>We’re almost there - let’s just configure some Vincoin Cash preferences</source>
+        <translation>Hampir selesai - marilah kita pilih preferensi dalam Vincoin Cash</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Vincoin blockchain?</source>
-        <translation>Mulailah rantaiblok Vincoin?</translation>
+        <source>Kickstart the Vincoin Cash blockchain?</source>
+        <translation>Mulailah rantaiblok Vincoin Cash?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1586,8 +1586,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin instance. However, storing the full blockchain is beneficial to the security of the Vincoin network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Cara penghematan bisa mengurangi ruang hard disk untuk Vincoin, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin Cash instance. However, storing the full blockchain is beneficial to the security of the Vincoin Cash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Cara penghematan bisa mengurangi ruang hard disk untuk Vincoin Cash, tetapi tidak mengurangi jumlah data. Menyimpan rantaiblok lengkap bermanfaat untuk jaringan. Kalau Anda punya hard disk yang kecil, pilihan ini sesuai untuk Anda.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1596,8 +1596,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Pertambangan menjaminkan sekuritas jaringan Vincoin, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Vincoin untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Pertambangan menjaminkan sekuritas jaringan Vincoin Cash, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Vincoin Cash untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -1620,8 +1620,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Vincoin development is solely supported by donations</source>
-        <translation>Pembangunan Vincoin cuma didukung oleh sumbangan</translation>
+        <source>Vincoin Cash development is solely supported by donations</source>
+        <translation>Pembangunan Vincoin Cash cuma didukung oleh sumbangan</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1635,8 +1635,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin development.</source>
-        <translation>Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan Vincoin. Contoh, pilihan 50% dengan biaya 0.005XMR akan tambah lagi 0.0025XMR kepada yang membangunkan Vincoin.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin Cash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin Cash development.</source>
+        <translation>Dengan setiap transaksi, biaya kecil dibebankan. Pilihan ini membolehkan Anda menaiki persen biaya itu kepada yang membangunkan Vincoin Cash. Contoh, pilihan 50% dengan biaya 0.005XMR akan tambah lagi 0.0025XMR kepada yang membangunkan Vincoin Cash.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1645,8 +1645,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Pertambangan menjaminkan sekuritas jaringan Vincoin, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Vincoin untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Pertambangan menjaminkan sekuritas jaringan Vincoin Cash, dan juga mengeluarkan hadiah kecil kepada yang menambang dengan sukses. Pilihan ini mengizinkan Vincoin Cash untuk pertambangan kapan komputer Anda menggunakan daya listrik dan Anda tidak bekerja. Pertambangan berhenti sewaktu saat Anda bekerja lagi.</translation>
     </message>
 </context>
 <context>
@@ -1825,8 +1825,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Vincoin!</source>
-        <translation>Selamat datang di dunia Vincoin!</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation>Selamat datang di dunia Vincoin Cash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1900,8 +1900,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Vincoin!</source>
-        <translation>Selamat datang di dunia Vincoin!</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation>Selamat datang di dunia Vincoin Cash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2134,8 +2134,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Vincoin</source>
-        <translation>Vincoin</translation>
+        <source>Vincoin Cash</source>
+        <translation>Vincoin Cash</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>

@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2015, The Vincoin Project
+// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2018-2019, The Vincoin Cash Project
 //
 // All rights reserved.
 //
@@ -42,7 +43,7 @@ import "wizard"
 
 ApplicationWindow {
     id: appWindow
-    title: "Vincoin"
+    title: "Vincoin Cash"
 
     property var currentItem
     property bool whatIsEnable: false
@@ -1021,7 +1022,7 @@ ApplicationWindow {
 //                PropertyChanges { target: frameArea; blocked: true }
                 PropertyChanges { target: titleBar; visible: true }
 //                PropertyChanges { target: titleBar; y: 0 }
-                PropertyChanges { target: titleBar; title: qsTr("Vincoin") + translationManager.emptyString }
+                PropertyChanges { target: titleBar; title: qsTr("Vincoin Cash") + translationManager.emptyString }
             }
         ]
 

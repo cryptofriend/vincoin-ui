@@ -29,8 +29,8 @@ class TransactionInfo : public QObject
 
 public:
     enum Direction {
-        Direction_In  =  Vincoin::TransactionInfo::Direction_In,
-        Direction_Out =  Vincoin::TransactionInfo::Direction_Out,
+        Direction_In  =  VincoinCash::TransactionInfo::Direction_In,
+        Direction_Out =  VincoinCash::TransactionInfo::Direction_Out,
         Direction_Both // invalid direction value, used for filtering
     };
 
@@ -58,10 +58,10 @@ public:
     //! Could be useful later when addressbook is implemented
     Q_INVOKABLE QList<Transfer*> transfers() const;
 private:
-    explicit TransactionInfo(Vincoin::TransactionInfo * pimpl, QObject *parent = 0);
+    explicit TransactionInfo(VincoinCash::TransactionInfo * pimpl, QObject *parent = 0);
 private:
     friend class TransactionHistory;
-    Vincoin::TransactionInfo * m_pimpl;
+    VincoinCash::TransactionInfo * m_pimpl;
     mutable QList<Transfer*> m_transfers;
 };
 

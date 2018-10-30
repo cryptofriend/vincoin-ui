@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2015, The Vincoin Project
+// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2018-2019, The Vincoin Cash Project
 //
 // All rights reserved.
 //
@@ -90,7 +91,7 @@ Window {
             }
 
             Text {
-                text: qsTr("Starting Vincoin daemon in %1 seconds").arg(countDown);
+                text: qsTr("Starting Vincoin Cash daemon in %1 seconds").arg(countDown);
                 font.pixelSize: 18
                 Layout.alignment: Qt.AlignHCenter
                 Layout.fillWidth: true

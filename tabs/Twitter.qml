@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2015, The Vincoin Project
+// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2018-2019, The Vincoin Cash Project
 // 
 // All rights reserved.
 // 
@@ -38,18 +39,18 @@ Item {
 
     ListModel {
         id: testModel
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
-        ListElement { head: "Vincoin || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
+        ListElement { head: "Vincoin Cash || #xmr"; foot: "<b>@btcplanet</b> Duis turpis arcu, varius nec rutrum in, adipiscing at enim. Donec quis consequat ipsum," }
     }
 
     property int inAnimDur: 250

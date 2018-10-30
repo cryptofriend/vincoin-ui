@@ -25,7 +25,7 @@ namespace {
     static const int WALLET_CONNECTION_STATUS_CACHE_TTL_SECONDS = 5;
 }
 
-class WalletListenerImpl : public  Vincoin::WalletListener
+class WalletListenerImpl : public  VincoinCash::WalletListener
 {
 public:
     WalletListenerImpl(Wallet * w)
@@ -108,11 +108,11 @@ bool Wallet::testnet() const
 
 void Wallet::updateConnectionStatusAsync()
 {
-    QFuture<Vincoin::Wallet::ConnectionStatus> future = QtConcurrent::run(m_walletImpl, &Vincoin::Wallet::connected);
-    QFutureWatcher<Vincoin::Wallet::ConnectionStatus> *connectionWatcher = new QFutureWatcher<Vincoin::Wallet::ConnectionStatus>();
+    QFuture<VincoinCash::Wallet::ConnectionStatus> future = QtConcurrent::run(m_walletImpl, &VincoinCash::Wallet::connected);
+    QFutureWatcher<VincoinCash::Wallet::ConnectionStatus> *connectionWatcher = new QFutureWatcher<VincoinCash::Wallet::ConnectionStatus>();
 
-    connect(connectionWatcher, &QFutureWatcher<Vincoin::Wallet::ConnectionStatus>::finished, [=]() {
-        QFuture<Vincoin::Wallet::ConnectionStatus> future = connectionWatcher->future();
+    connect(connectionWatcher, &QFutureWatcher<VincoinCash::Wallet::ConnectionStatus>::finished, [=]() {
+        QFuture<VincoinCash::Wallet::ConnectionStatus> future = connectionWatcher->future();
         connectionWatcher->deleteLater();
         ConnectionStatus newStatus = static_cast<ConnectionStatus>(future.result());
         if (newStatus != m_connectionStatus || !m_initialized) {
@@ -323,9 +323,9 @@ PendingTransaction *Wallet::createTransaction(const QString &dst_addr, const QSt
                                               quint64 amount, quint32 mixin_count,
                                               PendingTransaction::Priority priority)
 {
-    Vincoin::PendingTransaction * ptImpl = m_walletImpl->createTransaction(
+    VincoinCash::PendingTransaction * ptImpl = m_walletImpl->createTransaction(
                 dst_addr.toStdString(), payment_id.toStdString(), amount, mixin_count,
-                static_cast<Vincoin::PendingTransaction::Priority>(priority));
+                static_cast<VincoinCash::PendingTransaction::Priority>(priority));
     PendingTransaction * result = new PendingTransaction(ptImpl,0);
     return result;
 }
@@ -350,9 +350,9 @@ void Wallet::createTransactionAsync(const QString &dst_addr, const QString &paym
 PendingTransaction *Wallet::createTransactionAll(const QString &dst_addr, const QString &payment_id,
                                                  quint32 mixin_count, PendingTransaction::Priority priority)
 {
-    Vincoin::PendingTransaction * ptImpl = m_walletImpl->createTransaction(
-                dst_addr.toStdString(), payment_id.toStdString(), Vincoin::optional<uint64_t>(), mixin_count,
-                static_cast<Vincoin::PendingTransaction::Priority>(priority));
+    VincoinCash::PendingTransaction * ptImpl = m_walletImpl->createTransaction(
+                dst_addr.toStdString(), payment_id.toStdString(), VincoinCash::optional<uint64_t>(), mixin_count,
+                static_cast<VincoinCash::PendingTransaction::Priority>(priority));
     PendingTransaction * result = new PendingTransaction(ptImpl, this);
     return result;
 }
@@ -376,7 +376,7 @@ void Wallet::createTransactionAllAsync(const QString &dst_addr, const QString &p
 
 PendingTransaction *Wallet::createSweepUnmixableTransaction()
 {
-    Vincoin::PendingTransaction * ptImpl = m_walletImpl->createSweepUnmixableTransaction();
+    VincoinCash::PendingTransaction * ptImpl = m_walletImpl->createSweepUnmixableTransaction();
     PendingTransaction * result = new PendingTransaction(ptImpl, this);
     return result;
 }
@@ -398,7 +398,7 @@ void Wallet::createSweepUnmixableTransactionAsync()
 UnsignedTransaction * Wallet::loadTxFile(const QString &fileName)
 {
     qDebug() << "Trying to sign " << fileName;
-    Vincoin::UnsignedTransaction * ptImpl = m_walletImpl->loadUnsignedTx(fileName.toStdString());
+    VincoinCash::UnsignedTransaction * ptImpl = m_walletImpl->loadUnsignedTx(fileName.toStdString());
     UnsignedTransaction * result = new UnsignedTransaction(ptImpl, m_walletImpl, this);
     return result;
 }
@@ -460,7 +460,7 @@ AddressBookModel *Wallet::addressBookModel() const
 
 QString Wallet::generatePaymentId() const
 {
-    return QString::fromStdString(Vincoin::Wallet::genPaymentId());
+    return QString::fromStdString(VincoinCash::Wallet::genPaymentId());
 }
 
 QString Wallet::integratedAddress(const QString &paymentId) const
@@ -609,7 +609,7 @@ QString Wallet::getWalletLogPath() const
     return QCoreApplication::applicationDirPath() + "/vincoin-wallet-gui.log";
 }
 
-Wallet::Wallet(Vincoin::Wallet *w, QObject *parent)
+Wallet::Wallet(VincoinCash::Wallet *w, QObject *parent)
     : QObject(parent)
     , m_walletImpl(w)
     , m_history(nullptr)
@@ -642,7 +642,7 @@ Wallet::~Wallet()
 
     delete m_history;
     m_history = NULL;
-    //Vincoin::WalletManagerFactory::getWalletManager()->closeWallet(m_walletImpl);
+    //VincoinCash::WalletManagerFactory::getWalletManager()->closeWallet(m_walletImpl);
     delete m_walletImpl;
     m_walletImpl = NULL;
     qDebug("m_walletImpl deleted");

@@ -55,7 +55,7 @@ void PendingTransaction::setFilename(const QString &fileName)
     m_fileName = fileName;
 }
 
-PendingTransaction::PendingTransaction(Vincoin::PendingTransaction *pt, QObject *parent)
+PendingTransaction::PendingTransaction(VincoinCash::PendingTransaction *pt, QObject *parent)
     : QObject(parent), m_pimpl(pt)
 {
 

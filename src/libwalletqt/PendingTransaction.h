@@ -5,7 +5,7 @@
 
 #include <wallet/wallet2_api.h>
 
-//namespace Vincoin {
+//namespace VincoinCash {
 //class PendingTransaction;
 //}
 
@@ -22,16 +22,16 @@ class PendingTransaction : public QObject
 
 public:
     enum Status {
-        Status_Ok       = Vincoin::PendingTransaction::Status_Ok,
-        Status_Error    = Vincoin::PendingTransaction::Status_Error,
-        Status_Critical    = Vincoin::PendingTransaction::Status_Critical
+        Status_Ok       = VincoinCash::PendingTransaction::Status_Ok,
+        Status_Error    = VincoinCash::PendingTransaction::Status_Error,
+        Status_Critical    = VincoinCash::PendingTransaction::Status_Critical
     };
     Q_ENUM(Status)
 
     enum Priority {
-        Priority_Low    = Vincoin::PendingTransaction::Priority_Low,
-        Priority_Medium = Vincoin::PendingTransaction::Priority_Medium,
-        Priority_High   = Vincoin::PendingTransaction::Priority_High
+        Priority_Low    = VincoinCash::PendingTransaction::Priority_Low,
+        Priority_Medium = VincoinCash::PendingTransaction::Priority_Medium,
+        Priority_High   = VincoinCash::PendingTransaction::Priority_High
     };
     Q_ENUM(Priority)
 
@@ -47,11 +47,11 @@ public:
     Q_INVOKABLE void setFilename(const QString &fileName);
 
 private:
-    explicit PendingTransaction(Vincoin::PendingTransaction * pt, QObject *parent = 0);
+    explicit PendingTransaction(VincoinCash::PendingTransaction * pt, QObject *parent = 0);
 
 private:
     friend class Wallet;
-    Vincoin::PendingTransaction * m_pimpl;
+    VincoinCash::PendingTransaction * m_pimpl;
     QString m_fileName;
 };
 

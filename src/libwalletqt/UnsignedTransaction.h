@@ -20,16 +20,16 @@ class UnsignedTransaction : public QObject
 
 public:
     enum Status {
-        Status_Ok       = Vincoin::UnsignedTransaction::Status_Ok,
-        Status_Error    = Vincoin::UnsignedTransaction::Status_Error,
-        Status_Critical    = Vincoin::UnsignedTransaction::Status_Critical
+        Status_Ok       = VincoinCash::UnsignedTransaction::Status_Ok,
+        Status_Error    = VincoinCash::UnsignedTransaction::Status_Error,
+        Status_Critical    = VincoinCash::UnsignedTransaction::Status_Critical
     };
     Q_ENUM(Status)
 
     enum Priority {
-        Priority_Low    = Vincoin::UnsignedTransaction::Priority_Low,
-        Priority_Medium = Vincoin::UnsignedTransaction::Priority_Medium,
-        Priority_High   = Vincoin::UnsignedTransaction::Priority_High
+        Priority_Low    = VincoinCash::UnsignedTransaction::Priority_Low,
+        Priority_Medium = VincoinCash::UnsignedTransaction::Priority_Medium,
+        Priority_High   = VincoinCash::UnsignedTransaction::Priority_High
     };
     Q_ENUM(Priority)
 
@@ -47,13 +47,13 @@ public:
     Q_INVOKABLE void setFilename(const QString &fileName);
 
 private:
-    explicit UnsignedTransaction(Vincoin::UnsignedTransaction * pt, Vincoin::Wallet *walletImpl, QObject *parent = 0);
+    explicit UnsignedTransaction(VincoinCash::UnsignedTransaction * pt, VincoinCash::Wallet *walletImpl, QObject *parent = 0);
     ~UnsignedTransaction();
 private:
     friend class Wallet;
-    Vincoin::UnsignedTransaction * m_pimpl;
+    VincoinCash::UnsignedTransaction * m_pimpl;
     QString m_fileName;
-    Vincoin::Wallet * m_walletImpl;
+    VincoinCash::Wallet * m_walletImpl;
 };
 
 #endif // UNSIGNEDTRANSACTION_H

@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2015, The Vincoin Project
+// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2018-2019, The Vincoin Cash Project
 // 
 // All rights reserved.
 // 
@@ -71,7 +72,7 @@ Rectangle {
 
             Text {
                 id: soloMainLabel
-                text: qsTr("Mining with your computer helps strengthen the Vincoin network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.<br> <br>Mining also gives you a small chance to earn some Vincoin. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!") + translationManager.emptyString
+                text: qsTr("Mining with your computer helps strengthen the Vincoin Cash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.<br> <br>Mining also gives you a small chance to earn some Vincoin Cash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!") + translationManager.emptyString
                 wrapMode: Text.Wrap
                 Layout.fillWidth: true
             }

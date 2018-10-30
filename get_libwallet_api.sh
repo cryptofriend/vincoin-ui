@@ -30,7 +30,7 @@ git -C $VINCOIN_DIR checkout -B $VERSIONTAG
 # Save current user settings and revert back when we are done with merging PR's
 OLD_GIT_USER=$(git -C $VINCOIN_DIR config --local user.name)
 OLD_GIT_EMAIL=$(git -C $VINCOIN_DIR config --local user.email)
-git -C $VINCOIN_DIR config user.name "Vincoin GUI"
+git -C $VINCOIN_DIR config user.name "Vincoin Cash GUI"
 git -C $VINCOIN_DIR config user.email "gui@vincoin.local"
 # check for PR requirements in most recent commit message (i.e requires #xxxx)
 for PR in $(git log --format=%B -n 1 | grep -io "requires #[0-9]*" | sed 's/[^0-9]*//g'); do

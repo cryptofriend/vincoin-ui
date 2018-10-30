@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2015, The Vincoin Project
+// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2018-2019, The Vincoin Cash Project
 // 
 // All rights reserved.
 // 
@@ -494,7 +495,7 @@ Rectangle {
         TextBlock {
             id: guiVincoinVersion
             Layout.fillWidth: true
-            text: qsTr("Embedded Vincoin version: ") + Version.GUI_VINCOIN_VERSION + translationManager.emptyString
+            text: qsTr("Embedded Vincoin Cash version: ") + Version.GUI_VINCOIN_VERSION + translationManager.emptyString
         }
         TextBlock {
             Layout.fillWidth: true

@@ -8,7 +8,7 @@
 #include <QPointer>
 
 class Wallet;
-namespace Vincoin {
+namespace VincoinCash {
     class WalletManager;
 }
 
@@ -19,14 +19,14 @@ class WalletManager : public QObject
 
 public:
     enum LogLevel {
-        LogLevel_Silent = Vincoin::WalletManagerFactory::LogLevel_Silent,
-        LogLevel_0 = Vincoin::WalletManagerFactory::LogLevel_0,
-        LogLevel_1 = Vincoin::WalletManagerFactory::LogLevel_1,
-        LogLevel_2 = Vincoin::WalletManagerFactory::LogLevel_2,
-        LogLevel_3 = Vincoin::WalletManagerFactory::LogLevel_3,
-        LogLevel_4 = Vincoin::WalletManagerFactory::LogLevel_4,
-        LogLevel_Min = Vincoin::WalletManagerFactory::LogLevel_Min,
-        LogLevel_Max = Vincoin::WalletManagerFactory::LogLevel_Max,
+        LogLevel_Silent = VincoinCash::WalletManagerFactory::LogLevel_Silent,
+        LogLevel_0 = VincoinCash::WalletManagerFactory::LogLevel_0,
+        LogLevel_1 = VincoinCash::WalletManagerFactory::LogLevel_1,
+        LogLevel_2 = VincoinCash::WalletManagerFactory::LogLevel_2,
+        LogLevel_3 = VincoinCash::WalletManagerFactory::LogLevel_3,
+        LogLevel_4 = VincoinCash::WalletManagerFactory::LogLevel_4,
+        LogLevel_Min = VincoinCash::WalletManagerFactory::LogLevel_Min,
+        LogLevel_Max = VincoinCash::WalletManagerFactory::LogLevel_Max,
     };
 
     static WalletManager * instance();
@@ -151,7 +151,7 @@ private:
 
     explicit WalletManager(QObject *parent = 0);
     static WalletManager * m_instance;
-    Vincoin::WalletManager * m_pimpl;
+    VincoinCash::WalletManager * m_pimpl;
     QMutex m_mutex;
     QPointer<Wallet> m_currentWallet;
 

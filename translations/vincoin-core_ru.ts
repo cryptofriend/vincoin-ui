@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Vincoin daemon in %1 seconds</source>
-        <translation>Запуск демона Vincoin через %1 секунд</translation>
+        <source>Starting Vincoin Cash daemon in %1 seconds</source>
+        <translation>Запуск демона Vincoin Cash через %1 секунд</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Vincoin network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Майнинг на вашем компьютере помогает обезопасить сеть Vincoin. Чем больше людей майнит, тем сложнее атаковать сеть, и каждый майнер немного помогает.&lt;br&gt; &lt;br&gt;Майнинг также дает вам маленький шанс добыть несколько монет Vincoin. Ваш компьютер будет искать хэшы для решения блоков. Если вы найдете блок, то получите вознаграждение. Удачи!</translation>
+        <source>Mining with your computer helps strengthen the Vincoin Cash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin Cash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Майнинг на вашем компьютере помогает обезопасить сеть Vincoin Cash. Чем больше людей майнит, тем сложнее атаковать сеть, и каждый майнер немного помогает.&lt;br&gt; &lt;br&gt;Майнинг также дает вам маленький шанс добыть несколько монет Vincoin Cash. Ваш компьютер будет искать хэшы для решения блоков. Если вы найдете блок, то получите вознаграждение. Удачи!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -819,7 +819,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage wallet</source>
-        <translation>Кправление кошельком</translation>
+        <translation>Управление кошельком</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="88"/>
@@ -939,8 +939,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Vincoin version: </source>
-        <translation>Версия встроенного Vincoin</translation>
+        <source>Embedded Vincoin Cash version: </source>
+        <translation>Версия встроенного Vincoin Cash</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1573,13 +1573,13 @@ Ringsize: </source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Vincoin preferences</source>
-        <translation>Мы почти готовы к работе - давайте просто сделаем некоторые настройки Vincoin</translation>
+        <source>We’re almost there - let’s just configure some Vincoin Cash preferences</source>
+        <translation>Мы почти готовы к работе - давайте просто сделаем некоторые настройки Vincoin Cash</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Vincoin blockchain?</source>
-        <translation>Запустим блокчейн Vincoin ?</translation>
+        <source>Kickstart the Vincoin Cash blockchain?</source>
+        <translation>Запустим блокчейн Vincoin Cash ?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1593,8 +1593,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin instance. However, storing the full blockchain is beneficial to the security of the Vincoin network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Режим сохранения диска использует значительно меньше дискового пространства, но такой же объем полосы пропускания, как у обычного запуска Vincoin. Тем не менее, хранение полного блокчейна полезно для безопасности сети Vincoin. Если этот кошелек на устройстве с ограниченным дисковым пространством, этот вариант вам подойдет.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin Cash instance. However, storing the full blockchain is beneficial to the security of the Vincoin Cash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Режим сохранения диска использует значительно меньше дискового пространства, но такой же объем полосы пропускания, как у обычного запуска Vincoin Cash. Тем не менее, хранение полного блокчейна полезно для безопасности сети Vincoin Cash. Если этот кошелек на устройстве с ограниченным дисковым пространством, этот вариант вам подойдет.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1603,8 +1603,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Майнинг защищает сеть Vincoin, а также платит небольшую награду за проделанную работу. Эта опция позволяет Vincoin майнить, когда ваш компьютер включен и простаивает. Когда вы продолжите работать, он прекратит майнинг.</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Майнинг защищает сеть Vincoin Cash, а также платит небольшую награду за проделанную работу. Эта опция позволяет Vincoin Cash майнить, когда ваш компьютер включен и простаивает. Когда вы продолжите работать, он прекратит майнинг.</translation>
     </message>
 </context>
 <context>
@@ -1627,8 +1627,8 @@ Ringsize: </source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Vincoin development is solely supported by donations</source>
-        <translation>Разработка Vincoin полностью поддерживается пожертвованиями</translation>
+        <source>Vincoin Cash development is solely supported by donations</source>
+        <translation>Разработка Vincoin Cash полностью поддерживается пожертвованиями</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1642,8 +1642,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin development.</source>
-        <translation>За каждую транзакцию взимается небольшая комиссия. Эта опция позволяет вам добавить дополнительную сумму в процентах от этой комиссии к транзакции для поддержки разработки Vincoin. Например, 50% автодотации берут плату за транзакцию 0,005 XMR и добавляют 0,0025 XMR для поддержки разработки Vincoin.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin Cash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin Cash development.</source>
+        <translation>За каждую транзакцию взимается небольшая комиссия. Эта опция позволяет вам добавить дополнительную сумму в процентах от этой комиссии к транзакции для поддержки разработки Vincoin Cash. Например, 50% автодотации берут плату за транзакцию 0,005 XMR и добавляют 0,0025 XMR для поддержки разработки Vincoin Cash.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1652,8 +1652,8 @@ Ringsize: </source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Майнинг защищает сеть Vincoin, а также платит небольшую награду за проделанную работу. Эта опция позволяет Vincoin майнить, когда ваш компьютер включен и простаивает. Когда вы продолжите работать, он прекратит майнинг.</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Майнинг защищает сеть Vincoin Cash, а также платит небольшую награду за проделанную работу. Эта опция позволяет Vincoin Cash майнить, когда ваш компьютер включен и простаивает. Когда вы продолжите работать, он прекратит майнинг.</translation>
     </message>
 </context>
 <context>
@@ -1832,8 +1832,8 @@ Ringsize: </source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Vincoin!</source>
-        <translation>Добро пожаловать в Vincoin!</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation>Добро пожаловать в Vincoin Cash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1907,8 +1907,8 @@ Ringsize: </source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Vincoin!</source>
-        <translation>Добро подаловать в Vincoin!</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation>Добро подаловать в Vincoin Cash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2152,8 +2152,8 @@ Fee: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Vincoin</source>
-        <translation>Vincoin</translation>
+        <source>Vincoin Cash</source>
+        <translation>Vincoin Cash</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>

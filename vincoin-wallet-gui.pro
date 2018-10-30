@@ -299,6 +299,7 @@ TRANSLATIONS =  \ # English is default language, no explicit translation file
                 $$PWD/translations/vincoin-core_pl.ts \ # Polish
                 $$PWD/translations/vincoin-core_ru.ts \ # Russian
                 $$PWD/translations/vincoin-core_sv.ts \ # Swedish
+                $$PWD/translations/vincoin-core_vi.ts \ # Vietnamese
                 $$PWD/translations/vincoin-core_zh-cn.ts \ # Chinese (Simplified-China)
                 $$PWD/translations/vincoin-core_zh-tw.ts \ # Chinese (Traditional-Taiwan)
                 $$PWD/translations/vincoin-core_he.ts \ # Hebrew

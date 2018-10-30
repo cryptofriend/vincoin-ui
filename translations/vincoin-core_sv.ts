@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Vincoin daemon in %1 seconds</source>
-        <translation>Vincoin-nod startar om %1 sekunder</translation>
+        <source>Starting Vincoin Cash daemon in %1 seconds</source>
+        <translation>Vincoin Cash-nod startar om %1 sekunder</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -430,8 +430,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Vincoin network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>Utvinning med din dator hjälper till att stärka Vincoin-nätverket. Ju mer som folk utvinner, ju svårare blir det för nätverket att angripas, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Utvinning ger dig även en liten möjlighet att tjäna några Vincoin. Din dator kommer att leta efter lösningar för block genom att skapa hashar. Om du hittar ett block får du den tillhörande belöningen. Lycka till!</translation>
+        <source>Mining with your computer helps strengthen the Vincoin Cash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin Cash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>Utvinning med din dator hjälper till att stärka Vincoin Cash-nätverket. Ju mer som folk utvinner, ju svårare blir det för nätverket att angripas, och varje litet bidrag hjälper till.&lt;br&gt; &lt;br&gt;Utvinning ger dig även en liten möjlighet att tjäna några Vincoin Cash. Din dator kommer att leta efter lösningar för block genom att skapa hashar. Om du hittar ett block får du den tillhörande belöningen. Lycka till!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -857,8 +857,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Vincoin version: </source>
-        <translation>Inbäddad Vincoin-version:</translation>
+        <source>Embedded Vincoin Cash version: </source>
+        <translation>Inbäddad Vincoin Cash-version:</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1582,13 +1582,13 @@ Uppgradera eller anslut till en annan nod</translation>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Vincoin preferences</source>
-        <translation>Vi är nästan klara - låt oss bara göra några Vincoin-inställningar</translation>
+        <source>We’re almost there - let’s just configure some Vincoin Cash preferences</source>
+        <translation>Vi är nästan klara - låt oss bara göra några Vincoin Cash-inställningar</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Vincoin blockchain?</source>
-        <translation>Kickstarta Vincoin-blockkedjan?</translation>
+        <source>Kickstart the Vincoin Cash blockchain?</source>
+        <translation>Kickstarta Vincoin Cash-blockkedjan?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1602,8 +1602,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin instance. However, storing the full blockchain is beneficial to the security of the Vincoin network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>Disksparläge använder markant mindre diskutrymme, men samma mängd bandbredd som en vanlig Vincoin-instans. Att spara hela blockkedjan är fördelaktigt för säkerheten för hela Vincoin-nätverket. Om du använder en enhet med begränsat diskutrymme så är denna inställning lämpad för dig.</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin Cash instance. However, storing the full blockchain is beneficial to the security of the Vincoin Cash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>Disksparläge använder markant mindre diskutrymme, men samma mängd bandbredd som en vanlig Vincoin Cash-instans. Att spara hela blockkedjan är fördelaktigt för säkerheten för hela Vincoin Cash-nätverket. Om du använder en enhet med begränsat diskutrymme så är denna inställning lämpad för dig.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1612,8 +1612,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Utvinning säkerställer Vincoin-nätverket, och betalar även en liten belöning för arbetet som utförs. Denna inställning låter Vincoin jobba när din dator körs på fast ström och inte används. Den kommer att sluta jobba när du använder datorn igen.</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Utvinning säkerställer Vincoin Cash-nätverket, och betalar även en liten belöning för arbetet som utförs. Denna inställning låter Vincoin Cash jobba när din dator körs på fast ström och inte används. Den kommer att sluta jobba när du använder datorn igen.</translation>
     </message>
 </context>
 <context>
@@ -1636,8 +1636,8 @@ Uppgradera eller anslut till en annan nod</translation>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Vincoin development is solely supported by donations</source>
-        <translation>Utvecklingen av Vincoin finansieras helt genom donationer</translation>
+        <source>Vincoin Cash development is solely supported by donations</source>
+        <translation>Utvecklingen av Vincoin Cash finansieras helt genom donationer</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="113"/>
@@ -1651,8 +1651,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin development.</source>
-        <translation>En liten överföringsavgift tas ut för varje överföring. Denna inställning låter dig lägga till ett ytterligare belopp, som en procent av den avgiften, till din överföring för att stödja utveckligen av Vincoin. Till exempel, en 50 % automatisk donation tar en överföringsavgift på 0,005 XMR och lägger på 0,0025 XMR för att stödja utvecklingen av Vincoin.</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin Cash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin Cash development.</source>
+        <translation>En liten överföringsavgift tas ut för varje överföring. Denna inställning låter dig lägga till ett ytterligare belopp, som en procent av den avgiften, till din överföring för att stödja utveckligen av Vincoin Cash. Till exempel, en 50 % automatisk donation tar en överföringsavgift på 0,005 XMR och lägger på 0,0025 XMR för att stödja utvecklingen av Vincoin Cash.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1661,8 +1661,8 @@ Uppgradera eller anslut till en annan nod</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>Utvinning säkerställer Vincoin-nätverket, och betalar även en liten belöning för arbetet som utförs. Denna inställning låter Vincoin jobba när din dator körs på fast ström och inte används. Den kommer att sluta jobba när du använder datorn igen.</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>Utvinning säkerställer Vincoin Cash-nätverket, och betalar även en liten belöning för arbetet som utförs. Denna inställning låter Vincoin Cash jobba när din dator körs på fast ström och inte används. Den kommer att sluta jobba när du använder datorn igen.</translation>
     </message>
 </context>
 <context>
@@ -1842,8 +1842,8 @@ Uppgradera eller anslut till en annan nod</translation>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Vincoin!</source>
-        <translation>Välkommen till Vincoin!</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation>Välkommen till Vincoin Cash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1917,8 +1917,8 @@ Uppgradera eller anslut till en annan nod</translation>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Vincoin!</source>
-        <translation>Välkommen till Vincoin!</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation>Välkommen till Vincoin Cash!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2080,8 +2080,8 @@ Avgift: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="1024"/>
-        <source>Vincoin</source>
-        <translation>Vincoin</translation>
+        <source>Vincoin Cash</source>
+        <translation>Vincoin Cash</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1072"/>

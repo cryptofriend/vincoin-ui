@@ -117,8 +117,8 @@
     <name>DaemonManagerDialog</name>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="93"/>
-        <source>Starting Vincoin daemon in %1 seconds</source>
-        <translation>在 %1 秒後啟動 Vincoin 區塊同步</translation>
+        <source>Starting Vincoin Cash daemon in %1 seconds</source>
+        <translation>在 %1 秒後啟動 Vincoin Cash 區塊同步</translation>
     </message>
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="115"/>
@@ -440,8 +440,8 @@
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="86"/>
-        <source>Mining with your computer helps strengthen the Vincoin network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation>挖礦可增進 Vincoin 網路的安全性，只要越多使用者在挖礦，Vincoin 網路就會越難以被攻擊。&lt;br&gt; &lt;br&gt;挖礦也同時提供您機會賺取一些額外的 Vincoin 幣，因為在挖礦時，您的電腦將被用來尋找 Vincoin 區塊的解答，每當您找到一個區塊的解答，您即可以獲得其附帶的獎勵金，祝您好運！</translation>
+        <source>Mining with your computer helps strengthen the Vincoin Cash network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Vincoin Cash. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
+        <translation>挖礦可增進 Vincoin Cash 網路的安全性，只要越多使用者在挖礦，Vincoin Cash 網路就會越難以被攻擊。&lt;br&gt; &lt;br&gt;挖礦也同時提供您機會賺取一些額外的 Vincoin Cash 幣，因為在挖礦時，您的電腦將被用來尋找 Vincoin Cash 區塊的解答，每當您找到一個區塊的解答，您即可以獲得其附帶的獎勵金，祝您好運！</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -918,8 +918,8 @@
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="499"/>
-        <source>Embedded Vincoin version: </source>
-        <translation>內嵌 Vincoin 版本: </translation>
+        <source>Embedded Vincoin Cash version: </source>
+        <translation>內嵌 Vincoin Cash 版本: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="509"/>
@@ -1476,7 +1476,7 @@ Ringsize: </source>
     <message>
         <location filename="../pages/Transfer.qml" line="645"/>
         <source>Money sent successfully</source>
-        <translation>已成功完成 Vincoin 付款</translation>
+        <translation>已成功完成 Vincoin Cash 付款</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="704"/>
@@ -1584,13 +1584,13 @@ Please upgrade or connect to another daemon</source>
     <name>WizardConfigure</name>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="79"/>
-        <source>We’re almost there - let’s just configure some Vincoin preferences</source>
-        <translation>就快完成了 - Vincoin 還需要一點設定</translation>
+        <source>We’re almost there - let’s just configure some Vincoin Cash preferences</source>
+        <translation>就快完成了 - Vincoin Cash 還需要一點設定</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="97"/>
-        <source>Kickstart the Vincoin blockchain?</source>
-        <translation>開始同步 Vincoin 區塊鏈?</translation>
+        <source>Kickstart the Vincoin Cash blockchain?</source>
+        <translation>開始同步 Vincoin Cash 區塊鏈?</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="115"/>
@@ -1604,8 +1604,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="144"/>
-        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin instance. However, storing the full blockchain is beneficial to the security of the Vincoin network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
-        <translation>硬碟節約模式能精簡區塊鏈的資料而減少硬碟空間的使用量，但保存完整的區塊鏈能加強 Vincoin 網路的安全性，當您需要在容量較小的硬碟上執行，那麼這個功能就很適合您，此功能對於網路頻寬的用量沒有影響。</translation>
+        <source>Disk conservation mode uses substantially less disk-space, but the same amount of bandwidth as a regular Vincoin Cash instance. However, storing the full blockchain is beneficial to the security of the Vincoin Cash network. If you are on a device with limited disk space, then this option is appropriate for you.</source>
+        <translation>硬碟節約模式能精簡區塊鏈的資料而減少硬碟空間的使用量，但保存完整的區塊鏈能加強 Vincoin Cash 網路的安全性，當您需要在容量較小的硬碟上執行，那麼這個功能就很適合您，此功能對於網路頻寬的用量沒有影響。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="157"/>
@@ -1614,8 +1614,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardConfigure.qml" line="175"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>啟動挖礦功能可讓 Vincoin 的系統網路更加安全，且在工作完成時獲得小額的獎勵金。這個功能只會在電腦插著電源並且閒置時才會自動啟動，當您繼續使用電腦後即會停止挖礦。</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>啟動挖礦功能可讓 Vincoin Cash 的系統網路更加安全，且在工作完成時獲得小額的獎勵金。這個功能只會在電腦插著電源並且閒置時才會自動啟動，當您繼續使用電腦後即會停止挖礦。</translation>
     </message>
 </context>
 <context>
@@ -1638,7 +1638,7 @@ Please upgrade or connect to another daemon</source>
     <name>WizardDonation</name>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="93"/>
-        <source>Vincoin development is solely supported by donations</source>
+        <source>Vincoin Cash development is solely supported by donations</source>
         <translation>Vincoin的開發完全由贊助所支持</translation>
     </message>
     <message>
@@ -1653,8 +1653,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="164"/>
-        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin development.</source>
-        <translation>在每一筆交易中 Vincoin 系統都會收取小額的手續費，而這個選項則是讓你可以增加額外的金額贊助 Vincoin 的開發，比例以當次交易的手續費計算，譬如 50% 的自動贊助將會從0.005 XMR的手續費算出 0.0025 XMR 的金額贊助給 Vincoin 開發團隊。</translation>
+        <source>For every transaction, a small transaction fee is charged. This option lets you add an additional amount, as a percentage of that fee, to your transaction to support Vincoin Cash development. For instance, a 50% autodonation take a transaction fee of 0.005 XMR and add a 0.0025 XMR to support Vincoin Cash development.</source>
+        <translation>在每一筆交易中 Vincoin Cash 系統都會收取小額的手續費，而這個選項則是讓你可以增加額外的金額贊助 Vincoin Cash 的開發，比例以當次交易的手續費計算，譬如 50% 的自動贊助將會從0.005 XMR的手續費算出 0.0025 XMR 的金額贊助給 Vincoin Cash 開發團隊。</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="176"/>
@@ -1663,8 +1663,8 @@ Please upgrade or connect to another daemon</source>
     </message>
     <message>
         <location filename="../wizard/WizardDonation.qml" line="194"/>
-        <source>Mining secures the Vincoin network, and also pays a small reward for the work done. This option will let Vincoin mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
-        <translation>啟動挖礦功能可讓 Vincoin 的網路更加安全，且在工作完成時獲得小額的獎勵金。這個功能只會在電腦插著電源並且閒置時才會自動啟動，當您繼續使用電腦後即會停止挖礦。</translation>
+        <source>Mining secures the Vincoin Cash network, and also pays a small reward for the work done. This option will let Vincoin Cash mine when your computer is on mains power and is idle. It will stop mining when you continue working.</source>
+        <translation>啟動挖礦功能可讓 Vincoin Cash 的網路更加安全，且在工作完成時獲得小額的獎勵金。這個功能只會在電腦插著電源並且閒置時才會自動啟動，當您繼續使用電腦後即會停止挖礦。</translation>
     </message>
 </context>
 <context>
@@ -1844,8 +1844,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardOptions</name>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="87"/>
-        <source>Welcome to Vincoin!</source>
-        <translation>歡迎使用 Vincoin！</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation>歡迎使用 Vincoin Cash！</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="98"/>
@@ -1919,8 +1919,8 @@ Please upgrade or connect to another daemon</source>
     <name>WizardWelcome</name>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="79"/>
-        <source>Welcome to Vincoin!</source>
-        <translation>歡迎使用 Vincoin！</translation>
+        <source>Welcome to Vincoin Cash!</source>
+        <translation>歡迎使用 Vincoin Cash！</translation>
     </message>
     <message>
         <location filename="../wizard/WizardWelcome.qml" line="89"/>
@@ -2078,7 +2078,7 @@ Ringsize: </source>
     <message>
         <location filename="../main.qml" line="1355"/>
         <source>New version of vincoin-wallet-gui is available: %1&lt;br&gt;%2</source>
-        <translation>有可用的新版本 Vincoin 錢包:  %1&lt;br&gt;%2</translation>
+        <translation>有可用的新版本 Vincoin Cash 錢包:  %1&lt;br&gt;%2</translation>
     </message>
     <message>
         <location filename="../main.qml" line="523"/>
@@ -2163,8 +2163,8 @@ Description: </source>
     </message>
     <message>
         <location filename="../main.qml" line="1017"/>
-        <source>Vincoin</source>
-        <translation>Vincoin</translation>
+        <source>Vincoin Cash</source>
+        <translation>Vincoin Cash</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>

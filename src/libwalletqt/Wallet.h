@@ -6,11 +6,11 @@
 #include <QMutex>
 #include <QtConcurrent/QtConcurrent>
 
-#include "wallet/wallet2_api.h" // we need to have an access to the Vincoin::Wallet::Status enum here;
+#include "wallet/wallet2_api.h" // we need to have an access to the VincoinCash::Wallet::Status enum here;
 #include "PendingTransaction.h" // we need to have an access to the PendingTransaction::Priority enum here;
 #include "UnsignedTransaction.h"
 
-namespace Vincoin {
+namespace VincoinCash {
     class Wallet; // forward declaration
 }
 
@@ -53,17 +53,17 @@ public:
 
 
     enum Status {
-        Status_Ok       = Vincoin::Wallet::Status_Ok,
-        Status_Error    = Vincoin::Wallet::Status_Error,
-        Status_Critical = Vincoin::Wallet::Status_Critical
+        Status_Ok       = VincoinCash::Wallet::Status_Ok,
+        Status_Error    = VincoinCash::Wallet::Status_Error,
+        Status_Critical = VincoinCash::Wallet::Status_Critical
     };
 
     Q_ENUM(Status)
 
     enum ConnectionStatus {
-        ConnectionStatus_Connected       = Vincoin::Wallet::ConnectionStatus_Connected,
-        ConnectionStatus_Disconnected    = Vincoin::Wallet::ConnectionStatus_Disconnected,
-        ConnectionStatus_WrongVersion    = Vincoin::Wallet::ConnectionStatus_WrongVersion
+        ConnectionStatus_Connected       = VincoinCash::Wallet::ConnectionStatus_Connected,
+        ConnectionStatus_Disconnected    = VincoinCash::Wallet::ConnectionStatus_Disconnected,
+        ConnectionStatus_WrongVersion    = VincoinCash::Wallet::ConnectionStatus_WrongVersion
     };
 
     Q_ENUM(ConnectionStatus)
@@ -271,13 +271,13 @@ signals:
 
 private:
     Wallet(QObject * parent = nullptr);
-    Wallet(Vincoin::Wallet *w, QObject * parent = 0);
+    Wallet(VincoinCash::Wallet *w, QObject * parent = 0);
     ~Wallet();
 private:
     friend class WalletManager;
     friend class WalletListenerImpl;
     //! libwallet's
-    Vincoin::Wallet * m_walletImpl;
+    VincoinCash::Wallet * m_walletImpl;
     // history lifetime managed by wallet;
     TransactionHistory * m_history;
     // Used for UI history view

@@ -80,7 +80,7 @@ void UnsignedTransaction::setFilename(const QString &fileName)
     m_fileName = fileName;
 }
 
-UnsignedTransaction::UnsignedTransaction(Vincoin::UnsignedTransaction *pt, Vincoin::Wallet *walletImpl, QObject *parent)
+UnsignedTransaction::UnsignedTransaction(VincoinCash::UnsignedTransaction *pt, VincoinCash::Wallet *walletImpl, QObject *parent)
     : QObject(parent), m_pimpl(pt), m_walletImpl(walletImpl)
 {
 

@@ -5,7 +5,7 @@
 #include <QList>
 #include <QDateTime>
 
-namespace Vincoin {
+namespace VincoinCash {
 class TransactionHistory;
 }
 
@@ -41,11 +41,11 @@ public slots:
 
 
 private:
-    explicit TransactionHistory(Vincoin::TransactionHistory * pimpl, QObject *parent = 0);
+    explicit TransactionHistory(VincoinCash::TransactionHistory * pimpl, QObject *parent = 0);
 
 private:
     friend class Wallet;
-    Vincoin::TransactionHistory * m_pimpl;
+    VincoinCash::TransactionHistory * m_pimpl;
     mutable QList<TransactionInfo*> m_tinfo;
     mutable QDateTime   m_firstDateTime;
     mutable QDateTime   m_lastDateTime;

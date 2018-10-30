@@ -1,4 +1,5 @@
-// Copyright (c) 2014-2015, The Vincoin Project
+// Copyright (c) 2014-2015, The Monero Project
+// Copyright (c) 2018-2019, The Vincoin Cash Project
 // 
 // All rights reserved.
 // 
@@ -76,7 +77,7 @@ ColumnLayout {
             color: "#3F3F3F"
             wrapMode: Text.Wrap
             horizontalAlignment: Text.AlignHCenter
-            text: qsTr("Welcome to Vincoin!") + translationManager.emptyString
+            text: qsTr("Welcome to Vincoin Cash!") + translationManager.emptyString
         }
 
         Text {

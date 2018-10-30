@@ -1,35 +1,65 @@
-# Vincoin GUI
+# Vincoin Cash GUI
 
-Copyright (c) 2017-2018, The Vincoin Project  
 Copyright (c) 2014-2017, The Monero Project
+Copyright (c) 2018-2019, The Vincoin Cash Project
 
 ## Introduction
 
-Vincoin is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
+Vincoin Cash is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
 
-**Privacy:** Vincoin uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
+**Privacy:** Vincoin Cash uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
 
 **Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
 
-**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Vincoin is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
+**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, Vincoin Cash is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
 
 ## About this Project
 
-This is the GUI for the [core Vincoin implementation](https://github.com/cryptofriend/vincoin). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Vincoin that uses the protocol and network in a compatible manner.
+This is the GUI for the [core Vincoin Cash implementation](https://github.com/vincoin-project/vincoin). It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of Vincoin Cash that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
+
+## Supporting the Project
+
+Vincoin Cash development can be supported directly through donations.
+
+Both Vincoin Cash and Bitcoin donations can be made to donate.getvincoin.org if using a client that supports the [OpenAlias](https://openalias.org) standard
+
+The Vincoin Cash donation address is: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`)
+
+The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
+
+Core development funding and/or some supporting services are also graciously provided by sponsors:
+
+[<img width="80" src="https://static.getvincoin.org/images/sponsors/myvincoin.png"/>](https://myvincoin.com)
+[<img width="150" src="https://static.getvincoin.org/images/sponsors/kitware.png?1"/>](http://kitware.com)
+[<img width="100" src="https://static.getvincoin.org/images/sponsors/dome9.png"/>](http://dome9.com)
+[<img width="150" src="https://static.getvincoin.org/images/sponsors/araxis.png"/>](http://araxis.com)
+[<img width="150" src="https://static.getvincoin.org/images/sponsors/jetbrains.png"/>](http://www.jetbrains.com/)
+[<img width="150" src="https://static.getvincoin.org/images/sponsors/navicat.png"/>](http://www.navicat.com/)
+[<img width="150" src="https://static.getvincoin.org/images/sponsors/symas.png"/>](http://www.symas.com/)
+
+There are also several mining pools that kindly donate a portion of their fees, [a list of them can be found on our Bitcointalk post](https://bitcointalk.org/index.php?topic=583449.0).
 
 ## License
 
 See [LICENSE](LICENSE).
 
-## Compiling Vincoin Core from Source
+## Installing Vincoin Cash Core from a Package
+
+Packages are available for
+
+* Arch Linux via AUR: [vincoin-core-git](https://aur.archlinux.org/packages/vincoin-core-git/)
+
+Packaging for your favorite distribution would be a welcome contribution!
+
+## Compiling Vincoin Cash Core from Source
 
 ### On Linux:
 
 (Tested on Ubuntu 16.04 x86, 16.10 x64, Gentoo x64 and Linux Mint 18 "Sarah" - Cinnamon x64)
 
-1. Install Vincoin dependencies
+1. Install Vincoin Cash dependencies
 
   - For Ubuntu and Mint
 
@@ -41,11 +71,11 @@ See [LICENSE](LICENSE).
 
 2. Grab an up-to-date copy of the vincoin-core repository
 
-	`git clone https://github.com/vincoin-project/vincoin-ui.git`
+	`git clone https://github.com/vincoin-project/vincoin-core.git`
 
 3. Go into the repository
 
-	`cd vincoin-ui`
+	`cd vincoin-core`
 
 4. Install the GUI dependencies
 
@@ -93,7 +123,7 @@ The executable can be found in the build/release/bin folder.
 
 1. Install Xcode from AppStore
 2. Install [homebrew](http://brew.sh/)
-3. Install [vincoin](https://github.com/cryptofriend/vincoin) dependencies:
+3. Install [vincoin](https://github.com/vincoin-project/vincoin) dependencies:
 
   `brew install boost --c++11`
 
@@ -115,13 +145,13 @@ The executable can be found in the build/release/bin folder.
 
     This is the directory where Qt 5.x is installed on **your** system
 
-6. Grab an up-to-date copy of the vincoin-ui repository
+6. Grab an up-to-date copy of the vincoin-core repository
 
-  `git clone https://github.com/vincoin-project/vincoin-ui.git`
+  `git clone https://github.com/vincoin-project/vincoin-core.git`
 
 7. Go into the repository
 
-  `cd vincoin-ui`
+  `cd vincoin-core`
 
 8. Start the build
 
@@ -146,7 +176,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
 
 1. Install [msys2](http://msys2.github.io/), follow the instructions on that page on how to update packages to the latest versions
 
-2. Install vincoin dependencies as described in [vincoin documentation](https://github.com/cryptofriend/vincoin) into msys2 environment
+2. Install vincoin dependencies as described in [vincoin documentation](https://github.com/vincoin-project/vincoin) into msys2 environment
    **As we only build application for x86, install only dependencies for x86 architecture (i686 in package name)**
    ```
    pacman -S mingw-w64-i686-toolchain make mingw-w64-i686-cmake mingw-w64-i686-boost
@@ -185,12 +215,12 @@ More info: http://stackoverflow.com/a/35098040/1683164
 7. Clone repository
     ```
     cd
-    git clone https://github.com/cryptofriend/vincoin-ui.git
+    git clone https://github.com/vincoin-project/vincoin-core.git
     ```
 
 8. Build the GUI
     ```
-    cd vincoin-ui
+    cd vincoin-core
     export PATH=$(ls -rd /c/Qt/5.[6,7,8]/mingw53_32/bin | head -1):$PATH
     ./build.sh
     cd build
